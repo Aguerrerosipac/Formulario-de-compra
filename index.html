@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Formulario de compra</title>
+    <link rel="stylesheet" href="css/formulario_compra.css" />
+  </head>
+  <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    margin: auto;
+width: 400px;
+height: 800px;
+}
+.encabezado{
+    background-color: rgb(240, 161, 15);
+    height: 100px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.carrito{
+    margin-top: 20px;
+    width: 50px;
+margin-left: 170px;
+color: white;
+}
+main{
+    background-color: grey;
+    padding: 5px 50px 40px 50px;
+}
+.user{
+    width: 40px;
+    float: left;
+    color: white;
+}
+br{
+    clear: both;
+}
+.casita{
+    width: 50px;
+    float: left;
+    color: white;
+    margin-top: 10px;
+}
+input{
+   display: list-item;
+margin-top: 10px;
+width: 300px;
+height: 30px;
+border-radius: 5px;
+border: none;
+}
+.subtitulo1{
+    margin-top: 20px;
+    float: right;
+    margin-right: 110px;
+    color: white;   
+}
+.subtitulo2{
+    margin-top: 25px;
+    float: right;
+    margin-right: 180px;
+    color: white;
+}
+
+
+  </style>
+  <body>
+    <form method="post" name="formulario_compra">
+      <div class="encabezado">
+        <h1>ORDER FORM</h1>
+        <div class="carrito">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="cart-shopping"
+            class="svg-inline--fa fa-cart-shopping"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              fill="currentColor"
+              d="M463.1 416c-26.51 0-47.1 21.49-47.1 48s21.49 48 47.1 48s47.1-21.49 47.1-48S490.5 416 463.1 416zM175.1 416c-26.51 0-47.1 21.49-47.1 48S149.5 512 175.1 512s47.1-21.49 47.1-48S202.5 416 175.1 416zM569.5 44.73c-6.109-8.094-15.42-12.73-25.56-12.73H121.1L119.6 19.51C117.4 8.19 107.5 0 96 0H23.1C10.75 0 0 10.75 0 23.1S10.75 48 23.1 48h52.14l60.28 316.5C138.6 375.8 148.5 384 160 384H488c13.25 0 24-10.75 24-23.1C512 346.7 501.3 336 488 336H179.9L170.7 288h318.4c14.29 0 26.84-9.47 30.77-23.21l54.86-191.1C577.5 63.05 575.6 52.83 569.5 44.73z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <main>
+      <div class="cuerpo">
+        <div class="user">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="user"
+            class="svg-inline--fa fa-user"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"
+            ></path>
+          </svg>
+        </div>
+        <div class="subtitulo1">  <b> Personal Information </b></div>
+      </div>
+      <br>
+      <div>
+      <input type="text" name="primerinput" placeholder="Firs Name" />
+      <input type="text" name="segundoinput" placeholder="Last Name" />
+      <input type="text" name="tercerinput" placeholder="E-mail" />
+      <input type="text" name="cuartoinput" placeholder="Phone" />
+    </div>
+      <div>
+        <div class="casita">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="house-chimney" class="svg-inline--fa fa-house-chimney" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M511.8 287.6L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6z"></path></svg>
+        </div>
+        <div class="subtitulo2">
+        <b> Address </b> 
+      </div>
+      </div>
+      <br>
+      <input type="text" name="input5" placeholder="Address" />
+      <input type="text" name="input6" placeholder="City" />
+      <input type="text" name="input7" placeholder="Zip Code" />
+      <input type="text" name="input8" placeholder="Country" />
+    </main>
+    </form>
+  </body>
+</html>

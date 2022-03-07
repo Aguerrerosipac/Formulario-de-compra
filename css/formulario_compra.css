@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    margin: auto;
+width: 400px;
+height: 800px;
+}
+.encabezado{
+    background-color: rgb(240, 161, 15);
+    height: 100px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.carrito{
+    margin-top: 20px;
+    width: 50px;
+margin-left: 170px;
+color: white;
+}
+main{
+    background-color: grey;
+    padding: 5px 50px 40px 50px;
+}
+.user{
+    width: 40px;
+    float: left;
+    color: white;
+}
+br{
+    clear: both;
+}
+.casita{
+    width: 50px;
+    float: left;
+    color: white;
+    margin-top: 10px;
+}
+input{
+   display: list-item;
+margin-top: 10px;
+width: 300px;
+height: 30px;
+border-radius: 5px;
+border: none;
+}
+.subtitulo1{
+    margin-top: 20px;
+    float: right;
+    margin-right: 110px;
+    color: white;   
+}
+.subtitulo2{
+    margin-top: 25px;
+    float: right;
+    margin-right: 180px;
+    color: white;
+}
+
